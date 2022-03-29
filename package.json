@@ -1,0 +1,19 @@
+{
+  "name": "release0",
+  "version": "1.0.0",
+  "description": "By the end of this milestone ensure that you\r  - [ ] write tests for any program you are ever going to build\r  - [ ] are able to create and use object prototypes in js\r  - [ ] have understood how everything is an object in js & how powerful it is\r  - [ ] have practiced refactoring methods for your code\r  - [ ] able to appreciate the importance of thinking of time and planning of the project\r  - [ ] learn and practice a few software design patterns like Don't-Repeat-Yourself etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentsoftware/MS_Card-game_Pegasus_Tep_Online_Full-time_2022_4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exponentsoftware/MS_Card-game_Pegasus_Tep_Online_Full-time_2022_4/issues"
+  },
+  "homepage": "https://github.com/exponentsoftware/MS_Card-game_Pegasus_Tep_Online_Full-time_2022_4#readme"
+}

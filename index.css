@@ -1,0 +1,388 @@
+body {
+  font-size: 16px;
+  color: hwb(0 97% 1%);
+}
+#mainContent {
+  background-image: url("wp3283425.jpg");
+  background-color: #cccccc;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#heading {
+  text-align: center;
+  margin-left: 42%;
+  color: #f1eded;
+  font-size: 45px;
+}
+
+#playerBox {
+  font-size: 15px;
+  border-right: 2px solid rgb(248, 253, 248);
+  border-left: 2px solid rgb(248, 246, 246);
+  border-radius: 30px;
+  margin-left: 90px;
+  margin-right: 80px;
+  color: #cccccc;
+}
+
+#dealerBox {
+  font-size: 15px;
+  margin-left: 50px;
+  border-left: 2px solid rgb(248, 246, 246);
+  border-right: 2px solid rgb(252, 249, 249);
+  border-radius: 30px;
+  margin-right: 80px;
+  color: #cccccc;
+}
+#message {
+  text-align: center;
+  font-size: 30px;
+}
+.container1,
+.container2,
+.container3 {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container3 {
+  color: #f8f7f7;
+}
+
+.container1 div {
+  padding: 10px;
+  height: 350px;
+  flex: 1;
+  text-align: center;
+  color: #070707;
+}
+
+table,
+th,
+td {
+  height: 50px;
+  width: 600px;
+  padding: 5px;
+  border: 2px solid rgb(248, 245, 245);
+  text-align: center;
+  font-size: 30px;
+}
+#standButton,
+#dealButton,
+#hitButton {
+  font-weight: bolder;
+  padding: 10px;
+  position: relative;
+  border: 2px solid rgb(245, 242, 242);
+  color: #0a0a0a;
+  background-color: rgb(201, 201, 128);
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+.card {
+  border: 3px solid black;
+  height: 150px !important;
+  width: 90px !important;
+  margin-right: 4px;
+  border-radius: 15px;
+  text-align: left !important;
+  font-size: 30px;
+  display: inline-block;
+  background-color: white;
+  color: rgb(5, 5, 5);
+  padding: 4px;
+  box-shadow: 6px 8px rgb(8, 8, 8);
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+  #heading {
+    font-size: 27px;
+  }
+  #mainContent {
+    height: 600px;
+  }
+  #player {
+    font-size: 17px;
+  }
+  .container1 div {
+    height: 250px;
+    padding: 5px;
+  }
+
+  .card {
+    height: 50px !important;
+    width: 33px !important;
+    font-size: 15px;
+    box-shadow: 2px 4px rgb(0, 0, 0);
+  }
+
+  #hitButton,
+  #standButton,
+  #dealButton {
+    height: 25px;
+    width: 60px;
+    font-size: 10px;
+  }
+  table,
+  th,
+  td {
+    margin-top: -17px;
+    height: 25px;
+    width: 250px;
+    padding: 2px;
+    border: 2px solid rgb(252, 255, 252);
+    text-align: center;
+    font-size: 10px;
+  }
+}
+@media (min-width: 375px) and (max-width: 667px) {
+  #heading {
+    font-size: 10px;
+  }
+  .container1 div {
+    font-size: 10px;
+  }
+  #playerBox {
+    font-size: 5px;
+    margin-left: 10px;
+    padding-top: 5px;
+    margin-right: 20px;
+    margin-top: -40px;
+  }
+  #dealerBox {
+    font-size: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -40px;
+  }
+  .container1 div {
+    height: 90px;
+  }
+  #mainContent {
+    height: 300px;
+    margin-top: -45px;
+  }
+  #message {
+    font-size: 10px;
+  }
+
+  .card {
+    height: 30px !important;
+    width: 15px !important;
+    font-size: 5px !important;
+    box-shadow: 4px 6px rgb(51, 44, 44);
+  }
+  #suites {
+    font-size: 40px;
+  }
+
+  #hitButton,
+  #standButton,
+  #dealButton {
+    font-size: 8px;
+    height: 20px;
+    width: 30px;
+  }
+  .container2 div {
+    margin-top: -50px;
+  }
+  table,
+  th,
+  td {
+    margin-top: -35px;
+    height: 15px;
+  }
+}
+@media (min-width: 360px) and (max-width: 740px) {
+  #heading {
+    font-size: 10px;
+  }
+  .container1 div {
+    font-size: 10px;
+  }
+  #playerBox {
+    font-size: 5px;
+    margin-left: 10px;
+    padding-top: 5px;
+    margin-right: 20px;
+    margin-top: -40px;
+  }
+  #dealerBox {
+    font-size: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -40px;
+  }
+  .container1 div {
+    height: 90px;
+  }
+  #mainContent {
+    height: 300px;
+    margin-top: -45px;
+  }
+  #message {
+    font-size: 10px;
+  }
+
+  .card {
+    height: 20px !important;
+    width: 10px !important;
+    font-size: 5px !important;
+    box-shadow: 4px 6px rgb(51, 44, 44);
+  }
+  #suites {
+    font-size: 40px;
+  }
+
+  #hitButton,
+  #standButton,
+  #dealButton {
+    font-size: 8px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .container2 div {
+    margin-top: -50px;
+  }
+  .randomIndexsSuites {
+    font-size: 5px !important;
+  }
+}
+@media (min-width: 820px) and (max-width: 1180px) {
+  #heading {
+    font-size: 10px;
+  }
+  .container1 div {
+    font-size: 10px;
+  }
+  #playerBox {
+    font-size: 5px;
+    margin-left: 10px;
+    padding-top: 5px;
+    margin-right: 20px;
+    margin-top: -40px;
+    height: 200px;
+  }
+  #dealerBox {
+    font-size: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -40px;
+    height: 200px;
+  }
+  .container1 div {
+    height: 90px;
+  }
+  #mainContent {
+    height: 500px;
+    margin-top: -45px;
+  }
+  #message {
+    font-size: 10px;
+  }
+
+  .card {
+    height: 20px !important;
+    width: 10px !important;
+    font-size: 5px !important;
+    box-shadow: 4px 6px rgb(51, 44, 44);
+  }
+  #suites {
+    font-size: 40px;
+  }
+
+  #hitButton,
+  #standButton,
+  #dealButton {
+    font-size: 8px;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 60px;
+  }
+  .container2 div {
+    margin-top: -50px;
+  }
+  .randomIndexsSuites {
+    font-size: 5px !important;
+  }
+  table,
+  th,
+  td {
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 912px) and (max-width: 1368px) {
+  #heading {
+    font-size: 20px;
+  }
+  .container1 div {
+    font-size: 30px;
+  }
+  #playerBox {
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 5px;
+    margin-right: 20px;
+    margin-top: -40px;
+    height: 200px;
+  }
+  #dealerBox {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -40px;
+    height: 200px;
+  }
+  .container1 div {
+    height: 90px;
+  }
+  #mainContent {
+    height: 500px;
+    margin-top: -45px;
+  }
+  #message {
+    font-size: 10px;
+  }
+
+  .card {
+    height: 50px !important;
+    width: 25px !important;
+    font-size: 15px !important;
+    box-shadow: 4px 6px rgb(51, 44, 44);
+  }
+  #suites {
+    font-size: 40px;
+  }
+
+  #hitButton,
+  #standButton,
+  #dealButton {
+    font-size: 8px;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+    width: 60px;
+  }
+  .container2 div {
+    margin-top: -50px;
+  }
+  .randomIndexsSuites {
+    font-size: 5px !important;
+  }
+  table,
+  th,
+  td {
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+  }
+}
